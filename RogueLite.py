@@ -32,7 +32,10 @@ ARCTIC_ENCOUNTERS = {"Easy": ["1 Shadow Demon - MM", "1 Banshee - BR", "1 Warloc
                               "1d4 Owls - BR", "1 Giant Owl - BR", "2d4 Gnoll Witherlings - MOTM", "2 Gnoll Flesh Gnawers - MOTM + 1 Gnoll Hunter - MOTM", "1d4+1 Gnoll Hunters - MOTM"], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-COASTAL_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+COASTAL_ENCOUNTERS = {"Easy": ["1 Draconian Dreadnought - FTOD", "1 Blue Dragon Wyrmling - BR", "1 Merrenoloth - BR", "1 Swashbuckler - MOTM", "1 Draconian Infiltrator - FTOD", 
+                               "1 Dragonflesh Graftor - FTOD", "1 Black Dragon Wyrmling - BR + 2 Poisonous Snakes - BR", "1d4 Eagles - BR", "1d2 Giant Eagles - BR", "1 Quetzalcoatlus - MOTM", 
+                               "3d4+2 Poisonous Snakes - BR", "2d4 Dretch - BR", "2d4 Dimetrodon - MOTM", "1 Draconian Mage - FTOD + 1 Draconian Foot Soldier - FTOD", "1d4+1 Draconian Foot Soldiers - FTOD", 
+                               "1d2+1 Harpies - BR", "1d6 Giant Crabs - BR", "7d4 Crabs - BR", "1 Tortle Druid - MOTM + 2 Tortles - MOTM", "1d4+1 Tortles - MOTM"], 
                       "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                       "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 DESERT_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
