@@ -4,8 +4,8 @@ import json
 import os
 
 # Save file path
-# SAVE_FILE = "C:/Users/Nick/Documents/VSCode_Files/RogueLite/game_state.json"
-SAVE_FILE = "C:/Users/Nick/OneDrive/Desktop/Share/RogueLite/game_state.json"
+# SAVE_FILE = "C:/Users/Nick/Documents/VSCode_Files/RogueLite/RogueLite/game_state.json"
+SAVE_FILE = "C:/Users/Nick/OneDrive/Desktop/Share/RogueLite/RogueLite/game_state.json"
 
 # Constants
 TIME = 0
@@ -21,10 +21,10 @@ LIGHT_PERC = {"Arctic": [10, 25, 100], "Coastal": [34, 67, 100], "Desert": [75, 
               "Mountain": [34, 67, 100], "Swamp": [25, 75, 100], "Underdark": [0, 10, 100], 
               "Underwater": [34, 67, 100], "Urban": [34, 67, 100]}
 MBOSS = {"Arctic": "Glacier Golem", "Coastal": "Tidal Mauler", "Desert": "Sandstrider Behemoth", "Forest": "The Bramblefang", 
-         "Grassland": "Bladed Hopper", "Hill": "NEED THIS", "Mountain": "Thunderwing", "Swamp": "Rotmaw Gator", 
+         "Grassland": "Bladed Hopper", "Hill": "Boulderback Roach", "Mountain": "Thunderwing", "Swamp": "Rotmaw Gator", 
          "Underdark": "The Arcane Shard", "Underwater": "Thundercoil", "Urban": "The Jester"}
 BOSS = {"Arctic": "Vastilda, Iceweaver Matron", "Coastal": "Captain Marrowgrip, Warden of Cursed Waters", "Desert": "Vozhir, the Cursed Jackal", "Forest": "Thyrvek, the Forest's Eye", 
-        "Grassland": "Gravehorn, Hollow Alpha", "Hill": "NEED THIS", "Mountain": "Gulgrom, the Earthshaker", "Swamp": "Malzith, the Witch-Tyrant", 
+        "Grassland": "Gravehorn, Hollow Alpha", "Hill": "Grumgul, the Stone Maw", "Mountain": "Gulgrom, the Earthshaker", "Swamp": "Malzith, the Witch-Tyrant", 
         "Underdark": "Ozrith, the Consuming", "Underwater": "Shockmother, Queen of Currents", "Urban": "Raelix, Archblade Sentinel"}
 ARCTIC_ENCOUNTERS = {"Easy": ["1 Shadow Demon - MM", "1 Banshee - BR", "1 Warlock of the Archfey - MOTM + 2 Blood Hawks - BR", "1 Yeti - BR", "1 Manticore - BR", 
                               "1 Winter Wolf - BR", "1 Saber-Toothed Tiger - BR", "1 White Dragon Wyrmling - BR", "1 White Guard Drake - MOTM", "2 Saber-Toothed Tigers - BR", 
@@ -59,7 +59,7 @@ SWAMP_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "",
 UNDERDARK_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                         "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                         "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Killer Whale - BR", "1 Black Dragon Wyrmling - BR + 1 Swarm of Quippers - BR", "2 Deep Dragon Wyrmlings - FTOD", 
+UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Killer Whale - BR", "2d4 Constrictor Snakes - BR", "2 Deep Dragon Wyrmlings - FTOD", 
                                   "1 Sahuagin - BR + 1 Sahuagin Priestess - BR", "1 Merrow - BR + 1 Reef Shark - BR", "1d4+1 Sahuagin - BR", "1 Hunter Shark - BR", "1d4+1 Reef Sharks - BR", 
                                   "1 Plesiosaurus - BR", "2 Giant Octopuses - BR", "2 Sea Spawn - MOTM", "2 Swarms of Quippers - BR", "2d4 Giant Sea Horses - BR", 
                                   "1d4+4 Steam Mephits - BR", "1d4+2 Merfolk - BR + 2 Reef Sharks - BR", "1 Hunter Shark - BR + 1d4 Quippers - BR", "Dragon Turtle Wyrmling - FTOD", "2 Sea Hags - MM"], 
