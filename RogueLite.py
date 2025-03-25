@@ -47,7 +47,10 @@ DESERT_ENCOUNTERS = {"Easy": ["1 Dybbuk - MOTM", "1 Gnoll Fang of Yeenoghu - MM"
 FOREST_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-GRASSLAND_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+GRASSLAND_ENCOUNTERS = {"Easy": ["1 Stegosaurus - MOTM", "1 Ankylosaurus - MOTM", "2 Scarecrows - MM + 1d2 Cockatrice - BR", "1d2+1 Lions - BR", "1 Leucrota - MOTM", 
+                                 "1 Allosaurus - BR + 2 Velociraptors - MOTM", "2 Deinonychus - MOTM + 1d2+1 Velociraptors - MOTM", "1d4+4 Velociraptors - MOTM", "2d4 Pteranodons - BR", "1d6+2 Hadrosaurus - MOTM", 
+                                 "1 Hobgoblin Devastator - MOTM", "1 Hobgoblin Captain - MM", "1 Bugbear Chief - MM", "1 Hobgoblin Iron Shadow - MOTM + 1 Worg - BR", "2 Bugbears - BR + 1 Worg - BR + 1d2 Goblins - BR", 
+                                 "2 Goblin Bosses - MM + 1 Worg - BR + 1d2 Goblins - BR", "1d4+1 Hobgoblins - BR + 1 Goblin - BR", "3 Worgs - BR + 3 Goblins - BR", "1d4+4 Goblins - BR", "1d4+1 Cockatrice - BR"], 
                         "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                         "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 HILL_ENCOUNTERS = {"Easy": ["1 Neogi - MOTM + 1 Neogi Hatchling - MOTM", "1 Neogi Master - MOTM", "2d6+2 Neogi Hatchlings - MOTM", "2 Xvart Warlocks of Raxivort - MOTM + 1d4 Xvarts - MOTM", "3d4+2 Xvarts - MOTM", 
