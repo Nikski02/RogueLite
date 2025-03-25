@@ -50,7 +50,10 @@ FOREST_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", ""
 GRASSLAND_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                         "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                         "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-HILL_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+HILL_ENCOUNTERS = {"Easy": ["1 Neogi - MOTM + 1 Neogi Hatchling - MOTM", "1 Neogi Master - MOTM", "2d6+2 Neogi Hatchlings - MOTM", "2 Xvart Warlocks of Raxivort - MOTM + 1d4 Xvarts - MOTM", "3d4+2 Xvarts - MOTM", 
+                            "1 Yeth Hound - MOTM", "1 Barghest - MOTM", "1 Wereboar - BR", "1 Werewolf - BR", "1 Iron Cobra - MOTM", 
+                            "1 Stone Defender - MOTM", "1 Nightmare - BR", "1d2 Phase Spiders - BR", "1d2+1 Rutterkin - MOTM", "1d2+1 Spined Devils - MM", 
+                            "1d2 Giant Boar - BR", "2d4 Giant Wolf Spiders - BR", "2 Giant Hyenas - BR + 1d4 Hyenas - BR", "7d4 Hyenas - BR", "1d2+1 Bronze Scouts - MOTM"], 
                    "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                    "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 MOUNTAIN_ENCOUNTERS = {"Easy": ["1 Red Dragon Wyrmling - BR", "1 Ettin - BR", "1 Basilisk - BR", "1d2 Peryton - MM", "1 Red Guard Drake - MOTM", 
