@@ -105,7 +105,7 @@ def randomize_dungeon():
 
     CHAMBERS[0] = {"number": 0, "name": "Start", "difficulty": "None", 
                    "environment": "None", "effects": ["None"], "safe": "Yes",
-                   "light": "Bright Light", "layout": 1, "enemies": ["None"], "loot": ["None"], "hours": 0}
+                   "light": "Bright Light", "layout": 1, "enemies": "None", "loot": ["None"], "hours": 0}
     
     name = ""
     difficulty = ""
@@ -114,7 +114,7 @@ def randomize_dungeon():
     safe = ""
     light = ""
     layout = 0
-    enemies = ""
+    enemies = "None"
     loot = []
 
     # Counters
@@ -160,7 +160,7 @@ def randomize_dungeon():
         else: layout = 1
 
         # Enemies
-        enemies = generate_enemies(name, difficulty, environment)
+        enemies = generate_enemies(name, difficulty, environment, safe)
 
         # Update Chamber
         CHAMBERS[i+1] = {"number": i+1, "name": name, "difficulty": difficulty, 
@@ -245,8 +245,11 @@ def lightLevel(environment):
     return light
 
 # Generate Enemies
-def generate_enemies(name, difficulty, environment):
-    result = ""
+def generate_enemies(name, difficulty, environment, safe):
+    result = "None"
+
+    if safe == "Yes": return result # No enemies if safe
+
     if name == "Mini Boss": result = MBOSS.get(environment)
     elif name == "Boss": result = BOSS.get(environment)
     elif name == "Final Boss": result = "Xanathar"
@@ -337,6 +340,15 @@ def advance_time(current):
         random_event("Toxic Air: The air is filled with toxic spores and gases. All creatures must succeed on a DC 14 Constitution saving throw or gain one level of exhaustion. Creatures immune to poison are immune to this effect.")
     elif environment == "Urban":
         if roll <= 25: random_event("Rat Swarms: The dungeon is infested with aggressive rat swarms. A rat swarm emerges from the walls or floors, attacking the nearest creature. Use the stats for a swarm of rats in the Monster Manual for this swarm.")
+
+# Restart and randomize dungeon
+def restart_dungeon():
+    randomize_dungeon()
+    game_state["current_chamber"] = CHAMBERS[0]
+    game_state["chambers"] = CHAMBERS
+    game_state["time"] = TIME
+    update_ui()
+    save_game_state() # Save game after restart
 
 # Load next chamber
 def next_chamber():
@@ -429,17 +441,27 @@ update_ui()
 label = tk.Label(root, textvariable=chamber_info, wraplength=1000, justify="left", padx=10, pady=10)
 label.pack()
 
+# Button to randomize dungeon and start over
+btn_generate = tk.Button(root, text="Restart & Randomize Dungeon", command=restart_dungeon)
+btn_generate.pack(pady=(20,10))
+
 # Button to generate next chamber
 btn_generate = tk.Button(root, text="Generate Next Chamber", command=next_chamber)
-btn_generate.pack(pady=20)
+btn_generate.pack(pady=(15,25))
 
 # Button to advance time
 btn_short = tk.Button(root, text="Advance Time", command=advance_time(TIME))
 btn_short.pack()
 
+label = tk.Label(root, text = "No Random Encounter For Advance Time")
+label.pack()
+
+label = tk.Label(root, text = "Resting")
+label.pack(pady=(10,0))
+
 # Button to short rest
 btn_short = tk.Button(root, text="Short Rest", command=short_rest)
-btn_short.pack()
+btn_short.pack(pady=(0,5))
 
 # Button to long rest
 btn_long = tk.Button(root, text="Long Rest", command=long_rest)
@@ -447,7 +469,7 @@ btn_long.pack()
 
 # Button to save
 btn_long = tk.Button(root, text="Save", command=save_game_state)
-btn_long.pack(pady=10)
+btn_long.pack(pady=(20,0))
 
 # Run application
 root.mainloop()
