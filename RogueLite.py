@@ -44,7 +44,10 @@ DESERT_ENCOUNTERS = {"Easy": ["1 Dybbuk - MOTM", "1 Gnoll Fang of Yeenoghu - MM"
                               "2 Giant Vultures - BR + 1d4 Vultures - BR", "1d2+1 Yuan-ti Purebloods - MM", "2d6+2 Camels - BR", "1d4+1 Gnolls - BR", "1d4+1 Dust Mephits - BR"], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-FOREST_ENCOUNTERS = {"Easy": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+FOREST_ENCOUNTERS = {"Easy": ["1 Girallon - MOTM", "1 Displacer Beast - MM", "1 Bearded Devil - BR", "1 Flail Snail - MOTM", "1 Ettercap - BR + 1 Giant Spider - BR", 
+                              "1 Ankheg - BR + 1 Quickling - MOTM", "1 Grick - BR + 1d2 Giant Poisonous Snakes - BR", "1 Green Dragon Wyrmling - BR + 1 Giant Wasp - BR", "2 Dire Wolves - BR + 1d2+1 Wolves - BR", "2 Tigers - BR", 
+                              "2 Giant Spiders - BR + 1 Giant Wasp - BR", "2 Quicklings - MOTM + 1d2 Giant Poisonous Snakes - BR", "1d4+1 Black Bears - BR", "1d4+1 Apes - BR", "1d4+1 Giant Wasps - BR", 
+                              "1d4+4 Wolves - BR", "2d4 Giant Poisonous Snakes - BR", "1d4 Vine Blights - MM + 2 Needle Blights - MM", "1d4+4 Needle Blights - MM + 1d2 Twig Blights - BR", "3d4+2 Twig Blights - BR"], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 GRASSLAND_ENCOUNTERS = {"Easy": ["1 Stegosaurus - MOTM", "1 Ankylosaurus - MOTM", "2 Scarecrows - MM + 1d2 Cockatrice - BR", "1d2+1 Lions - BR", "1 Leucrota - MOTM", 
