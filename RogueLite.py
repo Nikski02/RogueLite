@@ -122,50 +122,56 @@ def randomize_dungeon():
     bossCount = 1
 
     for i in range(50):
-        # Chamber Name
-        if i == 49:
-            name = "Final Boss"
-        elif mBossCount != 5 and bossCount != 10:
-            name = "Chamber"
-        elif mBossCount == 5 and bossCount != 10:
-            name = "Mini Boss"
-            mBossCount = 0
-        else:
-            name = "Boss"
-            mBossCount = 0
-            bossCount = 0
+        tarrasqueRoll = random.randint(1,1000)
+        if tarrasqueRoll == 69: # Is a Tarrasque
+            CHAMBERS[i+1] = {"number": i+1, "name": "Tarrasque Room", "difficulty": "Death", 
+                             "environment": "Tarrasque Mouth", "effects": ["Death"], "safe": "Never",
+                             "light": "Darkness", "layout": 1, "enemies": "Tarrasque", "loot": ["None"], "hours": 0}
+        else: # Not a Tarrasque
+            # Chamber Name
+            if i == 49:
+                name = "Final Boss"
+            elif mBossCount != 5 and bossCount != 10:
+                name = "Chamber"
+            elif mBossCount == 5 and bossCount != 10:
+                name = "Mini Boss"
+                mBossCount = 0
+            else:
+                name = "Boss"
+                mBossCount = 0
+                bossCount = 0
 
-        # Chamber Difficulty
-        if i < 10: difficulty = "Easy"
-        elif i < 40: difficulty = "Medium"
-        else: difficulty = "Hard"
-        
-        # Update environment after every 5 chambers
-        if i % 5 == 0:
-            environment = generate_environment()
-            if environment == "Coastal": hours = random.randint(1,4) + 1 # Salt Air Effect
-            else: hours = 0 # All other environments
+            # Chamber Difficulty
+            if i < 10: difficulty = "Easy"
+            elif i < 40: difficulty = "Medium"
+            else: difficulty = "Hard"
+            
+            # Update environment after every 5 chambers
+            if i % 5 == 0:
+                environment = generate_environment()
+                if environment == "Coastal": hours = random.randint(1,4) + 1 # Salt Air Effect
+                else: hours = 0 # All other environments
 
-        # Light Level
-        light = lightLevel(environment)
+            # Light Level
+            light = lightLevel(environment)
 
-        # Environmental Effects
-        effects = env_effects(difficulty, environment, light)
-        
-        # Safe Chamber
-        safe = isSafe(name, environment)
+            # Environmental Effects
+            effects = env_effects(difficulty, environment, light)
+            
+            # Safe Chamber
+            safe = isSafe(name, environment)
 
-        # Select Chamber Layout
-        if i != 49: layout = random.randint(1,5)
-        else: layout = 1
+            # Select Chamber Layout
+            if i != 49: layout = random.randint(1,5)
+            else: layout = 1
 
-        # Enemies
-        enemies = generate_enemies(name, difficulty, environment, safe)
+            # Enemies
+            enemies = generate_enemies(name, difficulty, environment, safe)
 
-        # Update Chamber
-        CHAMBERS[i+1] = {"number": i+1, "name": name, "difficulty": difficulty, 
-                         "environment": environment, "effects": effects, "safe": safe, 
-                         "light": light, "layout": layout, "enemies": enemies, "loot": loot, "hours": hours}
+            # Update Chamber
+            CHAMBERS[i+1] = {"number": i+1, "name": name, "difficulty": difficulty, 
+                            "environment": environment, "effects": effects, "safe": safe, 
+                            "light": light, "layout": layout, "enemies": enemies, "loot": loot, "hours": hours}
 
         # Increment Counters
         mBossCount = mBossCount + 1
