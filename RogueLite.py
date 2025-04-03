@@ -4,8 +4,8 @@ import json
 import os
 
 # Save file path
-# SAVE_FILE = "C:/Users/Nick/Documents/VSCode_Files/RogueLite/RogueLite/game_state.json"
-SAVE_FILE = "C:/Users/Nick/OneDrive/Desktop/Share/RogueLite/RogueLite/game_state.json"
+SAVE_FILE = "C:/Users/Nick/Documents/GitHub/RogueLite/game_state.json"
+# SAVE_FILE = "C:/Users/Nick/OneDrive/Desktop/Share/RogueLite/RogueLite/game_state.json"
 
 # Constants
 TIME = 0
