@@ -45,8 +45,8 @@ DESERT_ENCOUNTERS = {"Easy": ["1 Dybbuk - MOTM", "1 Gnoll Fang of Yeenoghu - MM"
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 FOREST_ENCOUNTERS = {"Easy": ["1 Girallon - MOTM", "1 Displacer Beast - MM", "1 Bearded Devil - BR", "1 Flail Snail - MOTM", "1 Ettercap - BR + 1 Giant Spider - BR", 
-                              "1 Ankheg - BR + 1 Quickling - MOTM", "1 Grick - BR + 1d2 Giant Poisonous Snakes - BR", "1 Green Dragon Wyrmling - BR + 1 Giant Wasp - BR", "2 Dire Wolves - BR + 1d2+1 Wolves - BR", "2 Tigers - BR", 
-                              "2 Giant Spiders - BR + 1 Giant Wasp - BR", "2 Quicklings - MOTM + 1d2 Giant Poisonous Snakes - BR", "1d4+1 Black Bears - BR", "1d4+1 Apes - BR", "1d4+1 Giant Wasps - BR", 
+                              "1 Ankheg - BR + 1 Giant Spider - BR", "1 Grick - BR + 1d2 Giant Poisonous Snakes - BR", "1 Green Dragon Wyrmling - BR + 1 Giant Wasp - BR", "2 Dire Wolves - BR + 1d2+1 Wolves - BR", "2 Tigers - BR", 
+                              "2 Giant Spiders - BR + 1 Giant Wasp - BR", "1 Owlbear - BR", "1d4+1 Black Bears - BR", "1d4+1 Apes - BR", "1d4+1 Giant Wasps - BR", 
                               "1d4+4 Wolves - BR", "2d4 Giant Poisonous Snakes - BR", "1d4 Vine Blights - MM + 2 Needle Blights - MM", "1d4+4 Needle Blights - MM + 1d2 Twig Blights - BR", "3d4+2 Twig Blights - BR"], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
@@ -90,7 +90,10 @@ URBAN_ENCOUNTERS = {"Easy": ["1 Deathlock - MOTM", "1 Deathlock Wight - MOTM", "
                              "1 Helmed Horror - MM", "1 Merregon - MOTM", "1 Slithering Tracker - MOTM", "1d2 Mimics - BR", "1 Guard Drake - MOTM", 
                              "1d2 Gargoyles - BR", "1 Cult Fanatic - BR + 1d4 Cultists - BR", "2d6+2 Cultists - BR", "3d4+2 Giant Rats - BR", "2d6+2 Diseased Giant Rats - BR", 
                              "2 Animated Armor - BR + 1d4 Flying Swords - BR", "2d4 Flying Swords - BR", "1d4+4 Zombies - BR", "1d6+2 Skeletons - BR", "1d6+2 Smoke Mephits - MM"], 
-                    "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                    "Medium": ["1 Hoard Mimic - FTOD", "1 Canoloth - MOTM", "1 Chain Devil - BR", "1 Eyedrak - FTOD", "1 Deathlock Mastermind - MOTM", 
+                               "1 Black Abishai - MOTM + 1 Cult Fanatic - BR", "1 White Abishai - MOTM + 1d4+1 Cultists - BR", "1 Oni - BR", "1 Shield Guardian - BR + 1 Deathlock Wight - MOTM", "1 Invisible Stalker - BR + 1d4+1 Smoke Mephits - MM", 
+                               "2 Mezzoloths - MM", "1 Beholder Zombie - MM + 1d4+4 Zombies - BR", "2 Banderhobbs - MOTM", "1 Cambion - MM + 2 Cult Fanatics - BR + 1d2 Cultists - BR", "2 Flesh Golems - BR", 
+                               "2 Deathlocks - MOTM + 1d4 Skeletons - BR", "2 Helmed Horrors - MM + 2 Animated Armor - BR + 2 Flying Swords - BR", "2 Merregons - MOTM + 1 Cult Fanatic - BR + 1d2 Cultists - BR", "2 Babau - MOTM + 1 Cult Fanatic - BR + 1d2 Cultists - BR", "1d2+1 Deathlock Wights - MOTM + 1d2+1 Skeletons - BR"], 
                     "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 ENCOUNTERS = {"Arctic": ARCTIC_ENCOUNTERS, "Coastal": COASTAL_ENCOUNTERS, "Desert": DESERT_ENCOUNTERS, 
               "Forest": FOREST_ENCOUNTERS, "Grassland": GRASSLAND_ENCOUNTERS, "Hill": HILL_ENCOUNTERS, 
