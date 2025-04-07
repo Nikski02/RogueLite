@@ -74,8 +74,8 @@ SWAMP_ENCOUNTERS = {"Easy": ["1 Wight - BR", "1 Green Hag - BR", "1 Redcap - MOT
                              "2d4 The Wretched - MOTM", "1d4+1 Swarms of Rot Grubs - MOTM", "1d4+4 Mud Mephits - MM", "2d4 Oblex Spawn - MOTM", "3d4+2 Stirges - BR"], 
                     "Medium": ["1 Corpse Flower - MOTM", "1 Hydra - BR", "1 Young Black Dragon - BR + 1 Black Dragon Wyrmling - BR", "1 The Lost - MOTM + 1 The Wretched - MOTM", "1 Venom Troll - MOTM", 
                                "1 Maurezhi - MOTM", "1 Bodak - MOTM + 1d4+1 Stirges - BR", "1 Adult Oblex - MOTM + 2d4 Oblex Spawn - MOTM", "2 Trolls - BR", "2 Giant Crocodiles - BR", 
-                               "2 Allips - MOTM", "2 Catoblepases - MOTM", "1 Shadow Mastiff Alpha - MOTM + 1d2+2 Shadow Mastiffs - MOTM", "1d4+2 Shadow Mastiffs - MOTM", "1d4+2 Will-O'-Wisps - BR", 
-                               "2 Redcaps - MOTM + 1d2+1 Meazels - MOTM", "2 Wights - BR + 1d2+1 Ghouls - BR", "1d4+2 Ghasts - BR", "2d4+2 Ghouls - BR", "3d4+2 Swarms of Rot Grubs - MOTM"], 
+                               "2 Allips - MOTM", "2 Catoblepases - MOTM", "1 Shadow Mastiff Alpha - MOTM + 1d2+2 Shadow Mastiffs - MOTM", "1d4+2 Shadow Mastiffs - MOTM", "2 Night Hags - BR", 
+                               "2 Redcaps - MOTM + 1d2+1 Meazels - MOTM", "2 Wights - BR + 1d2+1 Ghouls - BR", "1d4+2 Ghasts - BR", "2d4+2 Ghouls - BR", "2 Barbed Devils - BR"], 
                     "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 UNDERDARK_ENCOUNTERS = {"Easy": ["1 Black Pudding - BR", "1 Bone Naga - BR", "1 Chuul - BR", "1 Flameskull - BR", "1 Bulezau - MOTM", 
                                  "1 Spectator - BR + 1 Gazer - MOTM", "1d4+1 Gazers - MOTM", "1 Grell - MM", "1 Hell Hound - BR", "1 Hook Horror - MM + 1 Gray Ooze - BR", 
@@ -90,7 +90,7 @@ UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Kil
                                   "1 Sahuagin - BR + 1 Sahuagin Priestess - BR", "1 Merrow - BR + 1 Reef Shark - BR", "1d4+1 Sahuagin - BR", "1 Hunter Shark - BR", "1d4+1 Reef Sharks - BR", 
                                   "1 Plesiosaurus - BR", "2 Giant Octopuses - BR", "2 Sea Spawn - MOTM", "2 Swarms of Quippers - BR", "2d4 Giant Sea Horses - BR", 
                                   "1d4+4 Steam Mephits - BR", "1d4+2 Merfolk - BR + 2 Reef Sharks - BR", "1 Water Weird - MM", "Dragon Turtle Wyrmling - FTOD", "2 Sea Hags - MM"], 
-                         "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                         "Medium": ["1 Young Sea Serpent - FTOD", "1 Water Elemental Myrmidon - MOTM + 1 Water Weird - MM", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                          "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 URBAN_ENCOUNTERS = {"Easy": ["1 Deathlock - MOTM", "1 Deathlock Wight - MOTM", "1 Incubus - BR", "1 Succubus - BR", "1 Babau - MOTM", 
                              "1 Helmed Horror - MM", "1 Merregon - MOTM", "1 Slithering Tracker - MOTM", "1d2 Mimics - BR", "1 Guard Drake - MOTM", 
