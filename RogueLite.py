@@ -72,7 +72,10 @@ SWAMP_ENCOUNTERS = {"Easy": ["1 Wight - BR", "1 Green Hag - BR", "1 Redcap - MOT
                              "1 Ghast - BR + 1 Ghoul - BR", "2 Ghouls - BR + 1d4 Stirges - BR", "1d4+1 Crocodiles - BR", "1 Black Guard Drake - MOTM + 1 Swarm of Rot Gubs - MOTM", "1 Will-O'-Wisp - BR", 
                              "1 Green Guard Drake - MOTM + 1 Swarm of Rot Grubs - MOTM", "1 Shadow Mastiff - MOTM + 1d4 Stirges - BR", "1 Meenlock - MOTM", "2 Giant Toads - BR + 2 Mud Mephits - MM", "1d3 Meazels - MOTM", 
                              "2d4 The Wretched - MOTM", "1d4+1 Swarms of Rot Grubs - MOTM", "1d4+4 Mud Mephits - MM", "2d4 Oblex Spawn - MOTM", "3d4+2 Stirges - BR"], 
-                    "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                    "Medium": ["1 Corpse Flower - MOTM", "1 Hydra - BR", "1 Young Black Dragon - BR + 1 Black Dragon Wyrmling - BR", "1 The Lost - MOTM + 1 The Wretched - MOTM", "1 Venom Troll - MOTM", 
+                               "1 Maurezhi - MOTM", "1 Bodak - MOTM + 1d4+1 Stirges - BR", "1 Adult Oblex - MOTM + 2d4 Oblex Spawn - MOTM", "2 Trolls - BR", "2 Giant Crocodiles - BR", 
+                               "2 Allips - MOTM", "2 Catoblepases - MOTM", "1 Shadow Mastiff Alpha - MOTM + 1d2+2 Shadow Mastiffs - MOTM", "1d4+2 Shadow Mastiffs - MOTM", "1d4+2 Will-O'-Wisps - BR", 
+                               "2 Redcaps - MOTM + 1d2+1 Meazels - MOTM", "2 Wights - BR + 1d2+1 Ghouls - BR", "1d4+2 Ghasts - BR", "2d4+2 Ghouls - BR", "3d4+2 Swarms of Rot Grubs - MOTM"], 
                     "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 UNDERDARK_ENCOUNTERS = {"Easy": ["1 Black Pudding - BR", "1 Bone Naga - BR", "1 Chuul - BR", "1 Flameskull - BR", "1 Bulezau - MOTM", 
                                  "1 Spectator - BR + 1 Gazer - MOTM", "1d4+1 Gazers - MOTM", "1 Grell - MM", "1 Hell Hound - BR", "1 Hook Horror - MM + 1 Gray Ooze - BR", 
