@@ -78,7 +78,10 @@ UNDERDARK_ENCOUNTERS = {"Easy": ["1 Black Pudding - BR", "1 Bone Naga - BR", "1 
                                  "1 Spectator - BR + 1 Gazer - MOTM", "1d4+1 Gazers - MOTM", "1 Grell - MM", "1 Hell Hound - BR", "1 Hook Horror - MM + 1 Gray Ooze - BR", 
                                  "1 Cave Fisher - MOTM", "1 Choldrith - MOTM + 1 Chitine - MOTM", "1d4+1 Chitine - MOTM", "1d2 Carrion Crawler - MM", "1d2 Nothic - BR", 
                                  "1 Gibbering Mouther - BR + 1d2 Gray Ooze - BR", "1d4+1 Gray Oozes - BR", "1d4+1 Darkmantles - BR", "1d4+1 Magma Mephits - BR", "2 Fire Snakes - MM + 1d2 Magma Mephit - BR"], 
-                        "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                        "Medium": ["1 Armanite - MOTM + 1 Hell Hound - BR", "1 Cloaker - BR", "1 Fomorian - MM", "1 Mind Flayer Arcanist - MM", "1 Mind Flayer - MM + 1 Grell - MM", 
+                                   "1 Spirit Naga - BR", "1 Dhergoloth - MOTM", "1 Draegloth - MOTM + 1 Bulezau - MOTM", "1 Drider - BR + 1d4 Gray Ooze - BR", "1 Gauth - MOTM + 1d4 Gazers - MOTM", 
+                                   "2 Vampire Spawn - BR", "1 Salamander - BR + 1d4 Fire Snakes - MM + 1 Magma Mephit - BR", "1 Earth Elemental - BR + 1d4+1 Magma Mephits - BR", "2 Gem Stalkers - FTOD", "1 Wraith - BR + 1 Flameskull - BR", 
+                                   "2 Mindwitnesses - MOTM", "1 Umber Hulk - MM + 1 Choldrith - MOTM + 1d2 Chitine - MOTM", "2 Otyugh - BR", "1 Roper - BR + 2 Nothic - BR", "1 Xorn - BR + 1 Bone Naga - BR"], 
                         "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Killer Whale - BR", "2d4 Constrictor Snakes - BR", "2 Deep Dragon Wyrmlings - FTOD", 
                                   "1 Sahuagin - BR + 1 Sahuagin Priestess - BR", "1 Merrow - BR + 1 Reef Shark - BR", "1d4+1 Sahuagin - BR", "1 Hunter Shark - BR", "1d4+1 Reef Sharks - BR", 
