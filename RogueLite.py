@@ -90,7 +90,10 @@ UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Kil
                                   "1 Sahuagin - BR + 1 Sahuagin Priestess - BR", "1 Merrow - BR + 1 Reef Shark - BR", "1d4+1 Sahuagin - BR", "1 Hunter Shark - BR", "1d4+1 Reef Sharks - BR", 
                                   "1 Plesiosaurus - BR", "2 Giant Octopuses - BR", "2 Sea Spawn - MOTM", "2 Swarms of Quippers - BR", "2d4 Giant Sea Horses - BR", 
                                   "1d4+4 Steam Mephits - BR", "1d4+2 Merfolk - BR + 2 Reef Sharks - BR", "1 Water Weird - MM", "Dragon Turtle Wyrmling - FTOD", "2 Sea Hags - MM"], 
-                         "Medium": ["1 Young Sea Serpent - FTOD", "1 Water Elemental Myrmidon - MOTM + 1 Water Weird - MM", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                         "Medium": ["1 Young Sea Serpent - FTOD", "1 Water Elemental Myrmidon - MOTM + 1 Water Weird - MM", "1 Young Deep Dragon - FTOD + 1 Deep Dragon Wyrmling - FTOD", "2 Giant Sharks - BR", "2 Water Elementals - BR", 
+                                    "1 Sahuagin Baron - MM + 1 Sahuagin Priestess - BR + 1d4 Sahuagin - BR", "2 Kraken Priests - MOTM", "2 Dragon Turtle Wyrmlings - FTOD + 1d4 Reef Sharks - BR", "3 Deep Scion - MOTM + 3 Sea Spawn - MOTM", "3 Killer Whales - BR + 1d4 Steam Mephits - BR", 
+                                    "3 Water Weirds - MM + 1 Sea Hag - MM", "1d2+2 Sahuagin Priestesses - BR + 3 Sahuagin - BR", "1d2+2 Merrow - BR + 3 Reef Sharks - BR", "1d4 Hunter Sharks - BR + 3 Reef Sharks - BR", "2 Plesiosaurus - BR + 1d4+2 Swarms of Quippers - BR", 
+                                    "1d2+1 Sea Hags (Coven if 3) - MM", "2d4+2 Sea Spawn - MOTM", "2d4+2 Swarms of Quippers - BR", "3d4+2 Sahuagin - BR", "4d6+2 Steam Mephits - BR"], 
                          "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 URBAN_ENCOUNTERS = {"Easy": ["1 Deathlock - MOTM", "1 Deathlock Wight - MOTM", "1 Incubus - BR", "1 Succubus - BR", "1 Babau - MOTM", 
                              "1 Helmed Horror - MM", "1 Merregon - MOTM", "1 Slithering Tracker - MOTM", "1d2 Mimics - BR", "1 Guard Drake - MOTM", 
