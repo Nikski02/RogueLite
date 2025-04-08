@@ -60,7 +60,10 @@ HILL_ENCOUNTERS = {"Easy": ["1 Neogi - MOTM + 1 Neogi Hatchling - MOTM", "1 Neog
                             "1 Yeth Hound - MOTM", "1 Barghest - MOTM", "1 Wereboar - BR", "1 Werewolf - BR", "1 Iron Cobra - MOTM", 
                             "1 Stone Defender - MOTM", "1 Nightmare - BR", "1d2 Phase Spiders - BR", "1d2+1 Rutterkin - MOTM", "1d2+1 Spined Devils - MM", 
                             "1d2 Giant Boar - BR", "2d4 Giant Wolf Spiders - BR", "2 Giant Hyenas - BR + 1d4 Hyenas - BR", "7d4 Hyenas - BR", "1d2+1 Bronze Scouts - MOTM"], 
-                   "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                   "Medium": ["2 Oaken Bolters - MOTM", "2 Galeb Duhr - BR", "2 Bulettes - BR", "2 Hill Giants - BR", "1 Howler - MOTM", 
+                              "1 Mouth of Grolantor - MOTM + 1 Yeth Hound - MOTM", "1 Eath Elemental Myrmidon - MOTM", "2 Wereboars - BR + 1d2 Giant Boars - BR", "2 Yeth Hounds - MOTM + 1d2 Giant Hyenas - BR + 1d2+1 Hyenas - BR", "2 Iron Cobras - MOTM + 1d2+1 Bronze Scouts - MOTM", 
+                              "2 Stone Defenders - MOTM + 1d2 Xvart Warlocks of Raxivort - MOTM + 1d2+1 Xvarts - MOTM", "2 Barghest - MOTM + 1d4 Giant Wolf Spiders - BR", "1 Neogi Master - MOTM + 1d2 Neogi - MOTM + 1d2+1 Neogi Hatchlings - MOTM", "3 Neogi - MOTM + 1d4 Neogi Hatchlings - MOTM", "1d2+2 Werewolves - BR", 
+                              "3 Phase Spiders - BR + 1d2+1 Giant Wolf Spiders - BR", "3 Nightmares - BR + 1 Spined Devil - BR", "1d4+2 Spined Devils - BR", "1d4+2 Rutterkin - MOTM", "1d4+2 Giant Boars - BR"], 
                    "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 MOUNTAIN_ENCOUNTERS = {"Easy": ["1 Red Dragon Wyrmling - BR", "1 Ettin - BR", "1 Basilisk - BR", "1d2 Peryton - MM", "1 Red Guard Drake - MOTM", 
                                 "1 Orc War Chief - MM", "1 Orc Eye of Gruumsh - MM + 1 Orc - BR", "1 Orog - MM + 1 Orc - BR", "1d4+1 Orcs - BR", "1d2 Cave Bears - MM", 
