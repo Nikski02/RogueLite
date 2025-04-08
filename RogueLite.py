@@ -66,7 +66,10 @@ MOUNTAIN_ENCOUNTERS = {"Easy": ["1 Red Dragon Wyrmling - BR", "1 Ettin - BR", "1
                                 "1 Orc War Chief - MM", "1 Orc Eye of Gruumsh - MM + 1 Orc - BR", "1 Orog - MM + 1 Orc - BR", "1d4+1 Orcs - BR", "1d2 Cave Bears - MM", 
                                 "1 Adult Kruthik - MOTM + 1d4+1 Young Kruthiks - MOTM", "3d4+2 Young Kruthiks - MOTM", "2 Chokers - MOTM + 1d3 Star Spawn Grue - MOTM", "1d2+1 Stone Cursed - MOTM", "2d4 Star Spawn Grues - MOTM", 
                                 "2 Firenewt Warlocks of Imix - MOTM + 1 Firenewt Warrior - MOTM", "2 Giant Striders - MOTM + 2 Firenewt Warriors - MOTM", "1d4+2 Firenewt Warriors", "1d4+1 Magmin - BR", "2d6+2 Manes - MM"], 
-                       "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                       "Medium": ["1 Stone Giant - BR", "1 Air Elemental Myrmidon - MOTM", "1 Wyvern - BR + 1d4+1 Orcs - BR", "1 Annis Hag - MOTM + 1d4+1 Magmin - BR", "1 Kruthik Hive Lord - MOTM + 1d2 Adult Kruthik - MOTM + 1d2 Young Kruthik - MOTM", 
+                                  "2 Air Elementals - BR", "2 Tanarukks - MOTM", "1 Star Spawn Mangler - MOTM + 1d4+4 Star Spawn Grues - MOTM", "2 Red Dragon Wyrmlings - BR + 1d2+1 Firenewt Warlocks of Imix - MOTM", "2 Ettin - BR + 1d4 Orcs - BR", 
+                                  "1 Orc War Chief - MM + 1d2 Orc Eyes of Gruumsh - MM + 1 Orog - MM + 1d2 Orcs - BR", "3 Basilisks - BR + 3 Stone Cursed - MOTM", "4 Adult Kruthiks - MOTM + 1d4+2 Young Kruthiks - MOTM", "4 Orc Eyes of Gruumsh - MM + 1d2+1 Orcs - BR", "4 Orogs - MM + 1d2+1 Orcs - BR", 
+                                  "4 Perytons - MM + 1d4+2 Manes - MM", "1d6+4 Stone Cursed - MOTM", "3d4+2 Orcs - BR", "2d6+2 Magmin - MM", "4d10+14 Young Kruthiks - MOTM"], 
                        "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 SWAMP_ENCOUNTERS = {"Easy": ["1 Wight - BR", "1 Green Hag - BR", "1 Redcap - MOTM", "1 Shadow Mastiff Alpha - MOTM", "1 Black Dragon Wyrmling - BR", 
                              "1 Ghast - BR + 1 Ghoul - BR", "2 Ghouls - BR + 1d4 Stirges - BR", "1d4+1 Crocodiles - BR", "1 Black Guard Drake - MOTM + 1 Swarm of Rot Gubs - MOTM", "1 Will-O'-Wisp - BR", 
