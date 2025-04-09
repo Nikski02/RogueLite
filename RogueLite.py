@@ -50,11 +50,14 @@ FOREST_ENCOUNTERS = {"Easy": ["1 Girallon - MOTM", "1 Displacer Beast - MM", "1 
                               "1d4+4 Wolves - BR", "2d4 Giant Poisonous Snakes - BR", "1d4 Vine Blights - MM + 2 Needle Blights - MM", "1d4+4 Needle Blights - MM + 1d2 Twig Blights - BR", "3d4+2 Twig Blights - BR"], 
                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
-GRASSLAND_ENCOUNTERS = {"Easy": ["1 Stegosaurus - MOTM", "1 Ankylosaurus - MOTM", "2 Scarecrows - MM + 1d2 Cockatrice - BR", "1d2+1 Lions - BR", "1 Leucrota - MOTM", 
+GRASSLAND_ENCOUNTERS = {"Easy": ["1 Stegosaurus - MOTM", "1 Ankylosaurus - MOTM", "2 Scarecrows - MM + 1d2 Cockatrice - BR", "1d2+1 Lions - BR", "1 Leucrotta - MOTM", 
                                  "1 Allosaurus - BR + 2 Velociraptors - MOTM", "2 Deinonychus - MOTM + 1d2+1 Velociraptors - MOTM", "1d4+4 Velociraptors - MOTM", "2d4 Pteranodons - BR", "1d6+2 Hadrosaurus - MOTM", 
                                  "1 Hobgoblin Devastator - MOTM", "1 Hobgoblin Captain - MM", "1 Bugbear Chief - MM", "1 Hobgoblin Iron Shadow - MOTM + 1 Worg - BR", "2 Bugbears - BR + 1 Worg - BR + 1d2 Goblins - BR", 
                                  "2 Goblin Bosses - MM + 1 Worg - BR + 1d2 Goblins - BR", "1d4+1 Hobgoblins - BR + 1 Goblin - BR", "3 Worgs - BR + 3 Goblins - BR", "1d4+4 Goblins - BR", "1d4+1 Cockatrice - BR"], 
-                        "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                        "Medium": ["1 Chimera - BR + 1 Hobgoblin Captain - MM", "2 Gorgons - BR", "1 Hobgoblin Warlord - MM + 1 Hobgoblin Devastator - MOTM", "1 Brontosaurus - MOTM + 1 Bugbear Chief - BR", "2 Triceratops - BR", 
+                                   "1 Tyrannosaurus Rex - BR", "1 Liondrake - FTOD + 1 Hobgoblin Captain - MM", "2 Stegosaurus - MOTM + 1d2 Bugbears - BR + 1 Worg - BR", "2 Hobgoblin Devastators - MOTM + 1 Hobgoblin Iron Shadow - MOTM", "2 Hobgoblin Captains - MM + 1d2 Hobgoblin Iron Shadows - MOTM + 1d2 Hobgoblins - MM", 
+                                   "3 Leucrotta - MOTM + 1d2+1 Worgs - BR", "3 Ankylosaurus - MOTM + 1d2+1 Hobgoblins - BR", "3 Bugbear Chiefs - MM + 1d2+1 Bugbears - BR", "4 Hobgoblin Iron Shadows - MOTM + 1d2+1 Hobgoblins - BR", "4 Allosaurus - BR + 2 Bugbears - BR", 
+                                   "1d4+4 Deinonychus - MOTM + 1d2+2 Velociraptor - MOTM", "1d4+3 Bugbears - BR + 1d2+2 Worgs - BR", "1d4+6 Scarecrows - MM", "1d4+6 Lions - BR", "1d4+6 Hobgoblins - MM + 1d4+3 Goblins - BR"], 
                         "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 HILL_ENCOUNTERS = {"Easy": ["1 Neogi - MOTM + 1 Neogi Hatchling - MOTM", "1 Neogi Master - MOTM", "2d6+2 Neogi Hatchlings - MOTM", "2 Xvart Warlocks of Raxivort - MOTM + 1d4 Xvarts - MOTM", "3d4+2 Xvarts - MOTM", 
                             "1 Yeth Hound - MOTM", "1 Barghest - MOTM", "1 Wereboar - BR", "1 Werewolf - BR", "1 Iron Cobra - MOTM", 
