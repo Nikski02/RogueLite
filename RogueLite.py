@@ -48,7 +48,10 @@ FOREST_ENCOUNTERS = {"Easy": ["1 Girallon - MOTM", "1 Displacer Beast - MM", "1 
                               "1 Ankheg - BR + 1 Giant Spider - BR", "1 Grick - BR + 1d2 Giant Poisonous Snakes - BR", "1 Green Dragon Wyrmling - BR + 1 Giant Wasp - BR", "2 Dire Wolves - BR + 1d2+1 Wolves - BR", "2 Tigers - BR", 
                               "2 Giant Spiders - BR + 1 Giant Wasp - BR", "1 Owlbear - BR", "1d4+1 Black Bears - BR", "1d4+1 Apes - BR", "1d4+1 Giant Wasps - BR", 
                               "1d4+4 Wolves - BR", "2d4 Giant Poisonous Snakes - BR", "1d4 Vine Blights - MM + 2 Needle Blights - MM", "1d4+4 Needle Blights - MM + 1d2 Twig Blights - BR", "3d4+2 Twig Blights - BR"], 
-                     "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                     "Medium": ["1 Shoosuva - MOTM", "1 Young Green Dragon - BR", "1 Giant Ape - BR + 1 Ape - BR", "1 Grick Alpha - BR + 1 Grick - BR", "2 Shambling Mounds - BR", 
+                                "2 Wood Woads - MOTM", "2 Balguras - BR", "2 Girallons - MOTM + 1d4 Apes - BR", "3 Displacer Beasts - MM + 1d4 Twig Blights - BR", "3 Owlbears - BR + 1d2+1 Black Bears - BR", 
+                                "3 Bearded Devils - BR + 1d2+1 Needle Blights - MM", "3 Flail Snails - MOTM + 1d2+1 Giant Poisonous Snakes - BR", "1d4+2 Green Dragon Wyrmlings - BR", "1d4+2 Gricks - BR", "1d4+2 Ankhegs - BR", 
+                                "1d2+2 Ettercaps - BR + 2 Giant Spiders - BR", "1d6+4 Giant Spiders - BR", "1d4+4 Dire Wolves - BR + 4 Wolves - BR", "3d4+2 Giant Wasps - BR", "1d4+3 Vine Blights - MM + 1d4+4 Needle Blights - MM + 1d4+6 Twig Blights - BR"], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 GRASSLAND_ENCOUNTERS = {"Easy": ["1 Stegosaurus - MOTM", "1 Ankylosaurus - MOTM", "2 Scarecrows - MM + 1d2 Cockatrice - BR", "1d2+1 Lions - BR", "1 Leucrotta - MOTM", 
                                  "1 Allosaurus - BR + 2 Velociraptors - MOTM", "2 Deinonychus - MOTM + 1d2+1 Velociraptors - MOTM", "1d4+4 Velociraptors - MOTM", "2d4 Pteranodons - BR", "1d6+2 Hadrosaurus - MOTM", 
