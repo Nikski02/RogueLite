@@ -30,7 +30,10 @@ ARCTIC_ENCOUNTERS = {"Easy": ["1 Shadow Demon - MM", "1 Banshee - BR", "1 Warloc
                               "1 Winter Wolf - BR", "1 Saber-Toothed Tiger - BR", "1 White Dragon Wyrmling - BR", "1 White Guard Drake - MOTM", "2 Saber-Toothed Tigers - BR", 
                               "1 Griffon - BR + 1d4 Blood Hawks - BR", "1 Polar Bear - BR", "1d3 Brown Bears - BR", "1 Ogre Zombie - BR", "1d4+1 Ice Mephits - BR", 
                               "1d4 Owls - BR", "1 Giant Owl - BR", "2d4 Gnoll Witherlings - MOTM", "2 Gnoll Flesh Gnawers - MOTM + 1 Gnoll Hunter - MOTM", "1d4+1 Gnoll Hunters - MOTM"], 
-                     "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                     "Medium": ["1 Frost Giant - BR", "2 Revenants - BR", "1 Bheur Hag - MOTM + 1 White Guard Drake - MOTM", "1 Mammoth - BR + 1 Warlock of the Archfey - MOTM", "2 Young Remorhaz - MM", 
+                                "1 Young White Dragon - BR + 1 White Dragon Wyrmling - BR", "1 Chasme - MM + 1d4+1 Gnoll Witherlings - MOTM", "2 Shadow Demons - MM + 1d4 Gnoll Hunters - MOTM", "2 Banshees - BR + 1 Ogre Zombie - BR", "2 Warlocks of the Archfey - MOTM + 1d4 Ice Mephits - BR", 
+                                "3 Yetis - BR + 1 Saber-Toothed Tiger - BR", "3 Winter Wolves - BR + 3 Gnoll Hunters - MOTM", "1d4 Ogres - BR + 2 Polar Bears - BR", "1d4+2 Saber-Toothed Tigers - BR", "1d4+2 White Dragon Wyrmlings - BR", 
+                                "1d4+2 Griffons - BR", "4 Ogre Zombies - BR + 1d4+2 Gnoll Witherlings - MOTM", "2d4+2 Gnoll Flesh Gnawers - MOTM", "3d4+2 Gnoll Hunters - MOTM", "2d6+2 Ice Mephits - BR"], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 COASTAL_ENCOUNTERS = {"Easy": ["1 Draconian Dreadnought - FTOD", "1 Blue Dragon Wyrmling - BR", "1 Merrenoloth - BR", "1 Swashbuckler - MOTM", "1 Draconian Infiltrator - FTOD", 
                                "1 Dragonflesh Graftor - FTOD", "1 Manticore - BR", "1d4 Eagles - BR", "1d2 Giant Eagles - BR", "1 Quetzalcoatlus - MOTM", 
