@@ -36,7 +36,10 @@ COASTAL_ENCOUNTERS = {"Easy": ["1 Draconian Dreadnought - FTOD", "1 Blue Dragon 
                                "1 Dragonflesh Graftor - FTOD", "1 Manticore - BR", "1d4 Eagles - BR", "1d2 Giant Eagles - BR", "1 Quetzalcoatlus - MOTM", 
                                "3d4+2 Poisonous Snakes - BR", "2d4 Dretch - BR", "2d4 Dimetrodon - MOTM", "1 Draconian Mage - FTOD + 1 Draconian Foot Soldier - FTOD", "1d4+1 Draconian Foot Soldiers - FTOD", 
                                "1d2+1 Harpies - BR", "1d6 Giant Crabs - BR", "7d4 Crabs - BR", "1 Tortle Druid - MOTM + 2 Tortles - MOTM", "1d4+1 Tortles - MOTM"], 
-                      "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                      "Medium": ["1 Cyclops - BR + 1d4+1 Tortles - MOTM", "1 Animated Breath (DM's Choice) - FTOD + 1 Draconian Mage - FTOD", "1 Draconian Mastermind - FTOD + 1d4 Draconian Foot Soldiers - FTOD", "1 Dragonflesh Abomination - FTOD + 1 Dragonflesh Graftor - FTOD", "1 Hezrou - BR", 
+                                 "2 Dragonblood Oozes - FTOD", "2 Draconian Dreadnoughts - FTOD + 1 Draconian Mage - FTOD + 1d2 Dimetrodon - MOTM", "1 Vrock - BR + 1d4+1 Dretch - BR", "3 Blue Dragon Wyrmlings - BR + 1 Draconian Mage - FTOD + 1 Draconian Foot Soldier - FTOD", "3 Merrenoloth - MOTM + 1d4 Dretch - BR", 
+                                 "3 Swashbucklers - MOTM + 3 Giant Eagles - BR", "3 Draconian Infiltrators - FTOD + 3 Draconian Foot Soldiers - FTOD", "3 Dragonflesh Graftors - FTOD + 1d4 Poisonous Snakes - BR", "3 Manticores - BR + 1d2+1 Harpies - BR", "1d4+2 Draconian Mages - FTOD", 
+                                 "1d4+2 Tortle Druids - MOTM", "2d4+2 Harpies - BR", "3d4+2 Draconian Foot Soldiers - FTOD", "4d6+3 Dretch - BR", "3d8+3 Tortles - MOTM"], 
                       "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 DESERT_ENCOUNTERS = {"Easy": ["1 Dybbuk - MOTM", "1 Gnoll Fang of Yeenoghu - MM", "1 Lamia - BR", "1 Yuan-ti Mind Whisperer - MOTM", "1 Yuan-ti Nightmare Speaker - MOTM", 
                               "1 Giant Scorpion - BR", "7d4 Scorpions - BR", "1 Mummy - BR + 1 Vulture - BR", "1 Yuan-ti Malison - MM", "7d4 Vultures - BR", 
