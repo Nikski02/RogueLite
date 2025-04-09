@@ -39,10 +39,13 @@ COASTAL_ENCOUNTERS = {"Easy": ["1 Draconian Dreadnought - FTOD", "1 Blue Dragon 
                       "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
                       "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 DESERT_ENCOUNTERS = {"Easy": ["1 Dybbuk - MOTM", "1 Gnoll Fang of Yeenoghu - MM", "1 Lamia - BR", "1 Yuan-ti Mind Whisperer - MOTM", "1 Yuan-ti Nightmare Speaker - MOTM", 
-                              "1 Giant Scorpion - BR", "7d4 Scorpions - BR", "1 Mummy - BR + 1 Vulture - BR", "1 Yuan-ti Malison", "7d4 Vultures - BR", 
+                              "1 Giant Scorpion - BR", "7d4 Scorpions - BR", "1 Mummy - BR + 1 Vulture - BR", "1 Yuan-ti Malison - MM", "7d4 Vultures - BR", 
                               "1 Yuan-ti Broodguard - MOTM + 1 Yuan-ti Pureblood - MM", "1 Gnoll Pack Lord - MM + 1d2 Gnolls - BR", "1 Blue Guard Drake - MOTM", "1 Berbalang - MOTM + 1 Death Dog - BR", "1d2+1 Death Dogs - BR", 
                               "2 Giant Vultures - BR + 1d4 Vultures - BR", "1d2+1 Yuan-ti Purebloods - MM", "2d6+2 Camels - BR", "1d4+1 Gnolls - BR", "1d4+1 Dust Mephits - BR"], 
-                     "Medium": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], 
+                     "Medium": ["2 Dust Devils - MOTM", "2 Fire Elementals - BR", "1 Medusa - BR + 1d4 Dust Mephits - BR", "2 Tlincalli - MOTM", "1 Yuan-Ti Abomination - MM", 
+                                "2 Yuan-Ti Pit Masters - MOTM", "2 Spawns of Kyuss - MOTM", "1 Fire Elemental Myrmidon - MOTM + 1 Dust Mephit - BR", "2 Dybbuk - MOTM + 2 Death Dogs - BR", "2 Lamias - BR + 1d4 Dust Mephits - BR", 
+                                "2 Gnoll Fangs of Yeenoghu - MM + 1d4 Gnolls - BR", "2 Yuan-Ti Whisperers - MOTM + 2 Yuan-Ti Purebloods - MM", "2 Yuan-Ti Nightmare Speakers - MOTM + 2 Yuan-Ti Purebloods - MM", "3 Yuan-Ti Malisons - MM + 3 Yuan-Ti Purebloods - MM", "3 Mummies - BR + 1d2+1 Dust Mephits - BR", 
+                                "3 Giant Scorpions - BR + 1d4+3 Scorpions - BR", "1d4+2 Berbalangs - MOTM", "1d4+2 Yuan-Ti Broodguard - MOTM", "3 Gnoll Pack Lords - MM + 1d4+3 Gnolls - BR", "1d4+6 Death Dogs - BR"], 
                      "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
 FOREST_ENCOUNTERS = {"Easy": ["1 Girallon - MOTM", "1 Displacer Beast - MM", "1 Bearded Devil - BR", "1 Flail Snail - MOTM", "1 Ettercap - BR + 1 Giant Spider - BR", 
                               "1 Ankheg - BR + 1 Giant Spider - BR", "1 Grick - BR + 1d2 Giant Poisonous Snakes - BR", "1 Green Dragon Wyrmling - BR + 1 Giant Wasp - BR", "2 Dire Wolves - BR + 1d2+1 Wolves - BR", "2 Tigers - BR", 
