@@ -34,7 +34,10 @@ ARCTIC_ENCOUNTERS = {"Easy": ["1 Shadow Demon - MM", "1 Banshee - BR", "1 Warloc
                                 "1 Young White Dragon - BR + 1 White Dragon Wyrmling - BR", "1 Chasme - MM + 1d4+1 Gnoll Witherlings - MOTM", "2 Shadow Demons - MM + 1d4 Gnoll Hunters - MOTM", "2 Banshees - BR + 1 Ogre Zombie - BR", "2 Warlocks of the Archfey - MOTM + 1d4 Ice Mephits - BR", 
                                 "3 Yetis - BR + 1 Saber-Toothed Tiger - BR", "3 Winter Wolves - BR + 3 Gnoll Hunters - MOTM", "1d4 Ogres - BR + 2 Polar Bears - BR", "1d4+2 Saber-Toothed Tigers - BR", "1d4+2 White Dragon Wyrmlings - BR", 
                                 "1d4+2 Griffons - BR", "4 Ogre Zombies - BR + 1d4+2 Gnoll Witherlings - MOTM", "2d4+2 Gnoll Flesh Gnawers - MOTM", "3d4+2 Gnoll Hunters - MOTM", "2d6+2 Ice Mephits - BR"], 
-                     "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
+                     "Hard": ["1 Winter Eladrin - MOTM", "1 Abominable Yeti - MM", "1 Frost Salamander - MOTM", "1 Frost Giant - BR + 1 Winter Wolf - BR", "1 Bheur Hag - MOTM + 1d4+1 Ice Mephits - BR", 
+                              "2 Young White Dragons - BR", "2 Chasme - MM", "2 Mammoths - BR", "2 Young Remorhaz - MM", "2 Revenants - BR", 
+                              "3 Shadow Demons - BR + 1d4 Gnoll Witherlings - MOTM", "3 Banshees - BR + 1d4 Gnoll Witherlings - MOTM", "3 Warlocks of the Archfey - MOTM + 1d2 Giant Owls - BR", "4 Yetis - BR + 1 Polar Bear - BR + 1 Brown Bear - BR", "4 Winter Wolves - BR + 2 Gnoll Hunters - MOTM", 
+                              "1d4+2 Ogres - BR", "1d4+2 Saber-Toothed Tigers - BR", "1d4+2 White Dragon Wyrmlings - BR", "1d4+2 Griffons - BR", "1d4+2 Ogre Zombies - BR"]}
 COASTAL_ENCOUNTERS = {"Easy": ["1 Draconian Dreadnought - FTOD", "1 Blue Dragon Wyrmling - BR", "1 Merrenoloth - BR", "1 Swashbuckler - MOTM", "1 Draconian Infiltrator - FTOD", 
                                "1 Dragonflesh Graftor - FTOD", "1 Manticore - BR", "1d4 Eagles - BR", "1d2 Giant Eagles - BR", "1 Quetzalcoatlus - MOTM", 
                                "3d4+2 Poisonous Snakes - BR", "2d4 Dretch - BR", "2d4 Dimetrodon - MOTM", "1 Draconian Mage - FTOD + 1 Draconian Foot Soldier - FTOD", "1d4+1 Draconian Foot Soldiers - FTOD", 
