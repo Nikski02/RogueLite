@@ -118,7 +118,10 @@ SWAMP_ENCOUNTERS = {"Easy": ["1 Wight - BR", "1 Green Hag - BR", "1 Redcap - MOT
                                "1 Maurezhi - MOTM", "1 Bodak - MOTM + 1d4+1 Stirges - BR", "1 Adult Oblex - MOTM + 2d4 Oblex Spawn - MOTM", "2 Trolls - BR", "2 Giant Crocodiles - BR", 
                                "2 Allips - MOTM", "2 Catoblepases - MOTM", "1 Shadow Mastiff Alpha - MOTM + 1d2+2 Shadow Mastiffs - MOTM", "1d4+2 Shadow Mastiffs - MOTM", "2 Night Hags - BR", 
                                "2 Redcaps - MOTM + 1d2+1 Meazels - MOTM", "2 Wights - BR + 1d2+1 Ghouls - BR", "1d4+2 Ghasts - BR", "2d4+2 Ghouls - BR", "2 Barbed Devils - BR"], 
-                    "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
+                    "Hard": ["1 Elder Oblex - MOTM", "1 Froghemoth - MOTM", "1 The Lonely - MOTM", "1 Rot Troll - MOTM", "1 Corpse Flower - MOTM + 1 Green Hag - BR", 
+                             "1 Hydra - BR + 1 Swarm of Rot Grubs - MOTM", "1 Venom Troll - MOTM + 1 Green Hag - BR", "1 Young Black Dragon - BR + 1 Black Dragon Wyrmling - BR", "1 Maurezhi - MOTM + 5 Stirges - BR", "1 The Lost - MOTM + 1d2+3 The Wretched - MOTM", 
+                             "2 Bodaks - MOTM", "1 Adult Oblex - MOTM + 1d4+6 Oblex Spawn - MOTM", "1 Allip - MOTM + 1 Shadow Mastiff Alpha - MOTM + 1d2 Shadow Mastiffs - MOTM", "1 Troll - BR + 1d4+6 Mud Mephits - MM", "2 Night Hags - BR", 
+                             "2 Barbed Devils - BR", "2 Catoblepases - MOTM", "1 Giant Crocodile - BR + 1d4+5 Crocodiles - BR", "4 Wights - BR + 1 Ghast - BR + 1 Ghoul - BR", "4 Redcaps - MOTM + 1 Meenlock - MOTM + 1 Meazel - MOTM"]}
 UNDERDARK_ENCOUNTERS = {"Easy": ["1 Black Pudding - BR", "1 Bone Naga - BR", "1 Chuul - BR", "1 Flameskull - BR", "1 Bulezau - MOTM", 
                                  "1 Spectator - BR + 1 Gazer - MOTM", "1d4+1 Gazers - MOTM", "1 Grell - MM", "1 Hell Hound - BR", "1 Hook Horror - MM + 1 Gray Ooze - BR", 
                                  "1 Cave Fisher - MOTM", "1 Choldrith - MOTM + 1 Chitine - MOTM", "1d4+1 Chitine - MOTM", "1d2 Carrion Crawler - MM", "1d2 Nothic - BR", 
