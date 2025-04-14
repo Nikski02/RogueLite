@@ -150,11 +150,14 @@ URBAN_ENCOUNTERS = {"Easy": ["1 Deathlock - MOTM", "1 Deathlock Wight - MOTM", "
                              "1 Helmed Horror - MM", "1 Merregon - MOTM", "1 Slithering Tracker - MOTM", "1d2 Mimics - BR", "1 Guard Drake - MOTM", 
                              "1d2 Gargoyles - BR", "1 Cult Fanatic - BR + 1d4 Cultists - BR", "2d6+2 Cultists - BR", "3d4+2 Giant Rats - BR", "2d6+2 Diseased Giant Rats - BR", 
                              "2 Animated Armor - BR + 1d4 Flying Swords - BR", "2d4 Flying Swords - BR", "1d4+4 Zombies - BR", "1d6+2 Skeletons - BR", "1d6+2 Smoke Mephits - MM"], 
-                    "Medium": ["1 Hoard Mimic - FTOD", "1 Canoloth - MOTM", "1 Chain Devil - BR", "1 Eyedrak - FTOD", "1 Deathlock Mastermind - MOTM", 
+                    "Medium": ["1 Hoard Mimic - FTOD", "1 Canoloth - MOTM", "1 Chain Devil - BR", "1 Eyedrake - FTOD", "1 Deathlock Mastermind - MOTM", 
                                "1 Black Abishai - MOTM + 1 Cult Fanatic - BR", "1 White Abishai - MOTM + 1d4+1 Cultists - BR", "1 Oni - BR", "1 Shield Guardian - BR + 1 Deathlock Wight - MOTM", "1 Invisible Stalker - BR + 1d4+1 Smoke Mephits - MM", 
                                "2 Mezzoloths - MM", "1 Beholder Zombie - MM + 1d4+4 Zombies - BR", "2 Banderhobbs - MOTM", "1 Cambion - MM + 2 Cult Fanatics - BR + 1d2 Cultists - BR", "2 Flesh Golems - BR", 
                                "2 Deathlocks - MOTM + 1d4 Skeletons - BR", "2 Helmed Horrors - MM + 2 Animated Armor - BR + 2 Flying Swords - BR", "2 Merregons - MOTM + 1 Cult Fanatic - BR + 1d2 Cultists - BR", "2 Babau - MOTM + 1 Cult Fanatic - BR + 1d2 Cultists - BR", "1d2+1 Deathlock Wights - MOTM + 1d2+1 Skeletons - BR"], 
-                    "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
+                    "Hard": ["1 Orthon - MOTM", "1 Bone Devil - BR", "1 Champion - MOTM", "1 Deathlock Mastermind - MOTM + 1 Deathlock Wight - MOTM", "1 Chain Devil - BR + 1 Cult Fanatic - BR", 
+                             "1 Eyedrake - FTOD + 1 Mimic - BR", "1 Hoard Mimic - FTOD + 1 Guard Drake - MOTM", "1 Canoloth - MOTM + 1 Cult Fanatic - BR", "1 Black Abishai - MOTM + 1 Cult Fanatic - BR + 1d4 Cultists - BR", "1 Shield Guardian - BR + 1 Succubus - BR", 
+                             "1 Oni - BR + 1 Babau - MOTM", "2 Invisible Stalkers - BR", "2 White Abishais - MOTM", "1 Banderhobb - MOTM + 1d4+6 Smoke Mephits - MM", "1 Cambion - MM + 1 Incubus - BR + 1 Cult Fanatic - BR + 1d2 Cultists - BR", 
+                             "1 Beholder Zombie - MM + 1d4+6 Zombies - BR", "1 Flesh Golem - BR + 1 Helmed Horror - MM + 1 Gargoyle - BR + 1d2 Diseased Giant Rats - BR", "1 Mezzoloth - MM + 1 Merregon - MOTM + 1 Cult Fanatic - BR + 1d2 Cultists - BR", "2 Deathlocks - MOTM + 1 Deathlock Wight - MOTM + 1d2+1 Skeletons - BR", "2 Babaus - MOTM + 2 Cult Fanatics - BR + 1d2 Cultists - BR"]}
 ENCOUNTERS = {"Arctic": ARCTIC_ENCOUNTERS, "Coastal": COASTAL_ENCOUNTERS, "Desert": DESERT_ENCOUNTERS, 
               "Forest": FOREST_ENCOUNTERS, "Grassland": GRASSLAND_ENCOUNTERS, "Hill": HILL_ENCOUNTERS, 
               "Mountain": MOUNTAIN_ENCOUNTERS, "Swamp": SWAMP_ENCOUNTERS, "Underdark": UNDERDARK_ENCOUNTERS, 
