@@ -130,7 +130,10 @@ UNDERDARK_ENCOUNTERS = {"Easy": ["1 Black Pudding - BR", "1 Bone Naga - BR", "1 
                                    "1 Spirit Naga - BR", "1 Dhergoloth - MOTM", "1 Draegloth - MOTM + 1 Bulezau - MOTM", "1 Drider - BR + 1d4 Gray Ooze - BR", "1 Gauth - MOTM + 1d4 Gazers - MOTM", 
                                    "2 Vampire Spawn - BR", "1 Salamander - BR + 1d4 Fire Snakes - MM + 1 Magma Mephit - BR", "1 Earth Elemental - BR + 1d4+1 Magma Mephits - BR", "2 Gem Stalkers - FTOD", "1 Wraith - BR + 1 Flameskull - BR", 
                                    "2 Mindwitnesses - MOTM", "1 Umber Hulk - MM + 1 Choldrith - MOTM + 1d2 Chitine - MOTM", "2 Otyugh - BR", "1 Roper - BR + 2 Nothic - BR", "1 Xorn - BR + 1 Bone Naga - BR"], 
-                        "Hard": ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]}
+                        "Hard": ["1 Death Kiss - MOTM", "1 Yochlol - MM", "1 Alhoon - MOTM", "1 Ulitharid - MOTM", "1 Mind Flayer Arcanist - MM + 1 Grell - MM", 
+                                 "1 Cloaker - BR + 1 Cave Fisher - MOTM", "1 Fomorian - MM + 1 Hook Horror - MM", "1 Spirit Naga - BR + 1 Nothic - BR", "1 Mind Flayer - MM + 1 Chuul - BR", "1 Armanite - MOTM + 1 Hell Hound - BR", 
+                                 "1 Dhergoloth - MOTM + 1 Hook Horror - MM", "1 Draegloth - MOTM + 1 Bone Naga - BR", "2 Gauths - MOTM", "2 Driders - BR", "1 Mindwitness - MOTM + 1 Chuul - BR + 1 Gibbering Mouther - BR + 1 Gray Ooze - BR", 
+                                 "1 Earth Elemental - BR + 2 Hook Horrors - BR + 1d2 Darkmantles - BR", "1 Wraith - BR + 1 Flameskull - BR + 1d2 Fire Snakes - MM", "2 Vampire Spawn - BR", "1 Otyugh - BR + 2 Spectators - BR + 1d2 Gazers - MOTM", "1 Salamander - BR + 2 Fire Snakes - MM + 1d2+3 Magma Mephits - BR"]}
 UNDERWATER_ENCOUNTERS = {"Easy": ["3d8 Quippers - BR", "Deep Scion - MOTM", "Killer Whale - BR", "2d4 Constrictor Snakes - BR", "2 Deep Dragon Wyrmlings - FTOD", 
                                   "1 Sahuagin - BR + 1 Sahuagin Priestess - BR", "1 Merrow - BR + 1 Reef Shark - BR", "1d4+1 Sahuagin - BR", "1 Hunter Shark - BR", "1d4+1 Reef Sharks - BR", 
                                   "1 Plesiosaurus - BR", "2 Giant Octopuses - BR", "2 Sea Spawn - MOTM", "2 Swarms of Quippers - BR", "2d4 Giant Sea Horses - BR", 
