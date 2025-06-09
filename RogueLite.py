@@ -234,6 +234,9 @@ def randomize_dungeon():
             # Enemies
             enemies = generate_enemies(name, difficulty, environment, safe)
 
+            # Loot
+            loot = getLoot(name, difficulty)
+
             # Update Chamber
             CHAMBERS[i+1] = {"number": i+1, "name": name, "difficulty": difficulty, 
                             "environment": environment, "effects": effects, "safe": safe, 
@@ -329,6 +332,45 @@ def generate_enemies(name, difficulty, environment, safe):
         encounterRoll = random.randint(0,19)
         result = ENCOUNTERS.get(environment).get(difficulty)[encounterRoll]
     return result
+
+def getLoot(name, difficulty):
+    if name == "Final Boss": return "None" # Final Boss has no loot
+    lootOptions = ["1 Nonmagic Weapon (1-37)", "5d4 Nonmagic Ammunition (1-4)", "1 Nonmagic Armor (1-13)", "Nonmagic Adventuring Gear (DM's Pick)"]
+    loot = []
+
+    lootOption = lootOptions[random.randint(0,3)] # Selects a loot option from the lootOptions list
+    rarePotionChance = random.randint(1,20) # Chance of better healing potions
+    magicItemChance = random.randint(1,20) # Chance of magic items
+
+    if difficulty == "Easy":
+        loot.append("1d6 Potions of Healing")
+        loot.append(lootOption)
+        if rarePotionChance >= 15: # Better healing potions
+            loot.append("1d2 Potions of Greater Healing")
+        if magicItemChance >= 15: # Magic items
+            loot.append("1d4 Rolls on Magic Item Table A")
+        if name == "Mini Boss" or name == "Boss": # Treasure hoard for boss fights
+            loot.append("Treasure Hoard Challenge 0-4: Reroll <37 - Magic Items Only")
+    elif difficulty == "Medium":
+        loot.append("1d6 Potions of Greater Healing")
+        loot.append(lootOption)
+        if rarePotionChance >= 15: # Better healing potions
+            loot.append("1d2 Potions of Superior Healing")
+        if magicItemChance >= 15: # Magic items
+            loot.append("1d4 Rolls on Magic Item Table B")
+        if name == "Mini Boss" or name == "Boss": # Treasure hoard for boss fights
+            loot.append("Treasure Hoard Challenge 5-10: Reroll <29 - Magic Items Only")
+    else:
+        loot.append("1d6 Potions of Superior Healing")
+        loot.append(lootOption)
+        if rarePotionChance >= 15: # Better healing potions
+            loot.append("1d2 Potions of Supreme Healing")
+        if magicItemChance >= 15: # Magic items
+            loot.append("1d4 Rolls on Magic Item Table C")
+        if name == "Mini Boss" or name == "Boss": # Treasure hoard for boss fights
+            loot.append("Treasure Hoard Challenge 11-16: Reroll <16 - Magic Items Only")
+
+    return loot
 ####################### Button Commands #######################
 
 ####################### LOAD AND SAVE GAME #######################
