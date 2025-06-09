@@ -471,7 +471,6 @@ def next_chamber():
     else:
         nextNum = 0
         randomize_dungeon()
-    print(CHAMBERS[nextNum]) ################################################### TESTING
     game_state["current_chamber"] = CHAMBERS[nextNum]
     update_ui()
     if (game_state["current_chamber"].get("name") in ("Mini Boss", "Boss", "Final Boss")):
@@ -542,48 +541,89 @@ def random_event(event):
 # Update UI
 def update_ui():
     chamber = game_state["current_chamber"]
-    chamber_info.set(f"Number: {chamber['number']}\nChamber: {chamber['name']}\nDifficulty: {chamber['difficulty']}\nEnvironment: {chamber['environment']}\nEffects: \n\t{'\n\t'.join(chamber['effects'])}\nSafe: {chamber['safe']}\nLight: {chamber['light']}\nLayout: {chamber['layout']}\nEnemies: {chamber['enemies']}\nLoot: {', '.join(chamber['loot'])}")
+    chamber_info.set(
+        f"Number: {chamber['number']}\n"
+        f"Chamber: {chamber['name']}\n"
+        f"Difficulty: {chamber['difficulty']}\n"
+        f"Environment: {chamber['environment']}\n"
+        f"Effects:\n\t{'\n\t'.join(chamber['effects'])}\n"
+        f"Safe: {chamber['safe']}\n"
+        f"Light: {chamber['light']}\n"
+        f"Layout: {chamber['layout']}\n"
+        f"Enemies: {chamber['enemies']}\n"
+        f"Loot: {', '.join(chamber['loot'])}"
+    )
 
 # Initialize GUI
 root = tk.Tk()
 root.title("Rogue-lite D&D Campaign Manager")
-root.geometry("960x540")  # Increased window size
+root.geometry("960x600")
+root.configure(bg="#f0f0f0")  # Light grey background
 
-# Display chamber info
+# === Chamber Info Section ===
+chamber_frame = tk.Frame(root, bg="#ffffff", bd=2, relief="groove")
+chamber_frame.pack(padx=20, pady=20, fill="x")
+
 chamber_info = tk.StringVar()
 update_ui()
-label = tk.Label(root, textvariable=chamber_info, wraplength=1000, justify="left", padx=10, pady=10)
-label.pack()
 
-# Button to randomize dungeon and start over
-btn_generate = tk.Button(root, text="Restart & Randomize Dungeon", command=restart_dungeon)
-btn_generate.pack(pady=(20,10))
+# Create the info label without a fixed wraplength
+info_label = tk.Label(
+    chamber_frame,
+    textvariable=chamber_info,
+    justify="left",
+    anchor="w",
+    font=("Courier New", 10),
+    bg="#ffffff",
+    padx=10,
+    pady=10
+)
+info_label.pack(fill="both")
 
-# Button to generate next chamber
-btn_generate = tk.Button(root, text="Generate Next Chamber", command=next_chamber)
-btn_generate.pack(pady=(15,25))
+# Function to update wraplength based on window size
+def update_wraplength(event=None):
+    margin = 40  # Adjust margin as needed
+    new_width = chamber_frame.winfo_width() - margin
+    info_label.config(wraplength=new_width)
 
-# Button to advance time
-btn_short = tk.Button(root, text="Advance Time", command=advance_time(TIME))
-btn_short.pack()
+# Call it once initially and bind to resizing
+root.bind("<Configure>", update_wraplength)
 
-label = tk.Label(root, text = "No Random Encounter For Advance Time")
-label.pack()
+# === Control Buttons ===
+button_font = ("Helvetica", 12, "bold")
 
-label = tk.Label(root, text = "Resting")
-label.pack(pady=(10,0))
+def styled_button(parent, text, command):
+    return tk.Button(
+        parent,
+        text=text,
+        font=button_font,
+        padx=10,
+        pady=5,
+        bd=3,
+        relief="raised",
+        command=command,
+        bg="#e0e0e0",
+        activebackground="#d0d0d0"
+    )
 
-# Button to short rest
-btn_short = tk.Button(root, text="Short Rest", command=short_rest)
-btn_short.pack(pady=(0,5))
+button_frame = tk.Frame(root, bg="#f0f0f0")
+button_frame.pack(pady=10)
 
-# Button to long rest
-btn_long = tk.Button(root, text="Long Rest", command=long_rest)
-btn_long.pack()
+styled_button(button_frame, "Restart & Randomize Dungeon", restart_dungeon).pack(pady=5)
+styled_button(button_frame, "Generate Next Chamber", next_chamber).pack(pady=5)
+styled_button(button_frame, "Advance Time", advance_time(TIME)).pack(pady=5)
 
-# Button to save
-btn_long = tk.Button(root, text="Save", command=save_game_state)
-btn_long.pack(pady=(20,0))
+tk.Label(root, text="No Random Encounter For Advance Time", font=("Helvetica", 10), bg="#f0f0f0").pack(pady=(5, 20))
+
+# === Rest Section ===
+rest_frame = tk.Frame(root, bg="#f0f0f0")
+rest_frame.pack(pady=(10, 0))
+
+tk.Label(rest_frame, text="Resting", font=("Helvetica", 16, "bold"), bg="#f0f0f0").pack(pady=(0, 10))
+
+styled_button(rest_frame, "Short Rest", short_rest).pack(pady=5)
+styled_button(rest_frame, "Long Rest", long_rest).pack(pady=5)
+styled_button(rest_frame, "Save", save_game_state).pack(pady=(10, 0))
 
 # Run application
 root.mainloop()
