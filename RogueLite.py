@@ -4,7 +4,7 @@ import json
 import os
 
 # Save file path
-SAVE_FILE = "C:/%USERPROFILE%/Desktop/game_state.json"
+SAVE_FILE = "C:/Users/Drizard/Desktop/game_state.json"
 # TESTING LOCATION
 # SAVE_FILE = "C:/Users/Nick/OneDrive/Desktop/Share/RogueLite/RogueLite/game_state.json"
 
@@ -335,10 +335,13 @@ def generate_enemies(name, difficulty, environment, safe):
     return result
 
 def getLoot(name, difficulty):
-    if name == "Final Boss": return "None" # Final Boss has no loot
     lootOptions = ["1 Nonmagic Weapon (1-37)", "5d4 Nonmagic Ammunition (1-4)", "1 Nonmagic Armor (1-13)", "Nonmagic Adventuring Gear (DM's Pick)"]
     loot = []
 
+    if name == "Final Boss":
+        loot.append("None") # Final Boss has no loot
+        return loot
+    
     lootOption = lootOptions[random.randint(0,3)] # Selects a loot option from the lootOptions list
     rarePotionChance = random.randint(1,20) # Chance of better healing potions
     magicItemChance = random.randint(1,20) # Chance of magic items
@@ -583,14 +586,21 @@ info_label.pack(fill="both")
 
 # Function to update wraplength based on window size
 def update_wraplength(event=None):
-    margin = 40  # Adjust margin as needed
+    margin = 40
     new_width = chamber_frame.winfo_width() - margin
     info_label.config(wraplength=new_width)
 
 # Call it once initially and bind to resizing
 root.bind("<Configure>", update_wraplength)
 
-# === Control Buttons ===
+# === Main Button Container ===
+main_button_frame = tk.Frame(root, bg="#f0f0f0")
+main_button_frame.pack(fill="both", expand=True, padx=20, pady=10)
+
+# === Control Buttons (Left Side) ===
+control_frame = tk.Frame(main_button_frame, bg="#f0f0f0")
+control_frame.place(relx=0.5 - 0.13, rely=0.5, anchor="e")  # shift slightly left from center
+
 button_font = ("Helvetica", 12, "bold")
 
 def styled_button(parent, text, command):
@@ -607,18 +617,15 @@ def styled_button(parent, text, command):
         activebackground="#d0d0d0"
     )
 
-button_frame = tk.Frame(root, bg="#f0f0f0")
-button_frame.pack(pady=10)
+styled_button(control_frame, "Restart & Randomize Dungeon", restart_dungeon).pack(pady=5)
+styled_button(control_frame, "Generate Next Chamber", next_chamber).pack(pady=5)
+styled_button(control_frame, "Advance Time", advance_time(TIME)).pack(pady=5)
 
-styled_button(button_frame, "Restart & Randomize Dungeon", restart_dungeon).pack(pady=5)
-styled_button(button_frame, "Generate Next Chamber", next_chamber).pack(pady=5)
-styled_button(button_frame, "Advance Time", advance_time(TIME)).pack(pady=5)
+tk.Label(control_frame, text="No Random Encounter For Advance Time", font=("Helvetica", 10), bg="#f0f0f0").pack(pady=(5, 20))
 
-tk.Label(root, text="No Random Encounter For Advance Time", font=("Helvetica", 10), bg="#f0f0f0").pack(pady=(5, 20))
-
-# === Rest Section ===
-rest_frame = tk.Frame(root, bg="#f0f0f0")
-rest_frame.pack(pady=(10, 0))
+# === Rest Buttons (Right Side) ===
+rest_frame = tk.Frame(main_button_frame, bg="#f0f0f0")
+rest_frame.place(relx=0.5 + 0.13, rely=0.5, anchor="w")  # shift slightly right from center
 
 tk.Label(rest_frame, text="Resting", font=("Helvetica", 16, "bold"), bg="#f0f0f0").pack(pady=(0, 10))
 
